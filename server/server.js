@@ -85,7 +85,7 @@ const app = express();
 // Enable CORS for your frontend
 app.use(
   cors({
-    origin: ["https://contacts-front-sigma.vercel.app"],
+    origin: ["*"],
     methods: ["POST", "GET"],
     credentials: true,
   })
