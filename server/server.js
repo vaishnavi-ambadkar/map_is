@@ -85,7 +85,7 @@ const app = express();
 // Enable CORS for your frontend
 app.use(
   cors({
-    origin: ["*"],
+    origin: ["https://map-is-frontend.vercel.app"],
     methods: ["POST", "GET"],
     credentials: true,
   })
